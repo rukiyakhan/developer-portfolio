@@ -45,7 +45,7 @@ nav li {
 .banner {
   display: flex;
   align-items: center;
-  margin: 0 100px;
+  margin: 0 200px;
 }
 .banner-title {
   font-size: 85px;
@@ -129,3 +129,58 @@ section {
   font-weight: 400;
 }
 /* resume styles */
+
+.resume-content {
+  display: flex;
+  gap: 25px;
+}
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume.title {
+  color: var(--Dark-02, #474747);
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume.sub-title {
+  color: var(--Dark-03, #757575);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.resume.description {
+  color: var(--Dark-03, #757575);
+}
+.resume-button {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* contact styles */
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
+
+.contact .section-title {
+  text-align: left;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+.contact input {
+  height: 64px;
+}
+.contact a {
+  text-decoration: none;
+}
